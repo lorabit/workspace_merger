@@ -84,7 +84,7 @@ class WorkspaceMerger:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Log-Bilinear model for relation extraction.')
+        description='Merge generated bazel workspaces for maven dependencies.')
     _arg = parser.add_argument
     _arg(
         '-s', '--source', 
